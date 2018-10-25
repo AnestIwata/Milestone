@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Krub|Quicksand');
 
 
+
+
 body html{
   margin: 0;
   padding: 0;
@@ -15,16 +17,16 @@ body {
 .About {
   position: relative;
   text-transform: uppercase;
-  width: 1000px;
+  
   margin-top: 30%;
  margin-bottom:10%;
- margin-left: -10%;
+ 
  color: #ffffff;
 }
-.backgroundimg {
-  background-image: url(../images/Profile.jpg);
+.sidenav {
+  background-image: url(../images/ja.jpg);
   height: 100vh;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   margin :0;
   padding: 0;
@@ -32,27 +34,41 @@ body {
        -moz-transition: all 0.5s ease-in-out;
      -webkit-transition: all 0.5s ease-in-out;
 }
+     
+     .sidephoto {
+  background-image: url(../images/sky.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  margin :0;
+  padding: 0;
+  transition: all .5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+     -webkit-transition: all 0.5s ease-in-out;
+     
+}
 #menu {
   margin: 0;
   padding: 0;
 }
 #menu.navbar-default .navbar-brand {
-    color: rgba(119, 119, 119, 1);
+    color: #ffffff;
 }
 #menu.navbar-default {
     font-size: 28px;
-    background-color: rgba(40, 219, 141, 0.50);
+    background-color: #83B5AB;
     border-width: 1px;
     border-radius: 4px;
 }
 #menu.navbar-default .navbar-nav>li>a {
     color: rgba(252, 252, 252, 1);
-    background-color: rgba(163, 142, 204, 0.5);
+    background-color: #c4ca05;
 }
 #menu.navbar-default .navbar-nav>li>a:hover,
 #menu.navbar-default .navbar-nav>li>a:focus {
     color: rgba(51, 51, 51, 1);
     background-color: rgba(204, 66, 66, 0.79);
+    transition: all 0.50 ease-in-out;
 }
 #menu.navbar-default .navbar-nav>.active>a,
 #menu.navbar-default .navbar-nav>.active>a:hover,
@@ -74,6 +90,25 @@ body {
 #menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #28db8d;
 }
+ footer {
+     background-color: #708090;
+     margin: 0;
+     padding: 0;
+ }
+ nav ul{
+     font-size: 16px;
+     text-align: center;
+    list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ span {
+     display: inline;
+ }
+
+
+
 
 
 
