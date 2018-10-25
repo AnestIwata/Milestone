@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Krub|Quicksand');
 
 
@@ -94,19 +95,22 @@ body {
      background-color: #708090;
      margin: 0;
      padding: 0;
- }
- nav ul{
-     font-size: 16px;
+     min-height: 3em;
+     border-style: solid;
+     border-top-width: 2px;
+    border-top-color: #FFFF00;
+           }
+           
+ .list-inline {
+     font-size: 25px;
      text-align: center;
-    list-style-type: none;
      margin: 0;
      padding: 0;
- }
- 
- span {
-     display: inline;
- }
-
+     
+      }
+     a {
+         color: #FFFF00;
+     }
 
 
 
