@@ -13,6 +13,10 @@ body {
   
   
 }
+.row,.container-fluid {
+margin: 0;
+padding: 0;
+}
 
 .About {
   position: relative;
@@ -28,7 +32,7 @@ body {
   background-size: cover;
   margin :0;
   padding: 0;
-  transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
        -moz-transition: all 0.5s ease-in-out;
      -webkit-transition: all 0.5s ease-in-out;
 }
@@ -40,7 +44,7 @@ body {
   background-size: cover;
   margin :0;
   padding: 0;
-  transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
        -moz-transition: all 0.5s ease-in-out;
      -webkit-transition: all 0.5s ease-in-out;
      
@@ -48,6 +52,7 @@ body {
 #menu {
   margin: 0;
   padding: 0;
+  
 }
 #menu.navbar-default .navbar-brand {
     color: #ffffff;
@@ -164,17 +169,24 @@ a.navbar-brand {
   background: rgb(255, 255, 0, 0.3); /* yellow see through */
   width: 100%;
   height: 35%;
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
   color: #ffffff;
   font-weight: 200;
   padding-left: 0;
   margin-left: 0;
+  overflow: auto;
 }
 
   h3{
       font-weight: 700;
-      text-shadow: -2px 2px 4px black
+      text-shadow: -2px 2px 4px black;
+      font-size: 44px;
+      
         }
+        @media (min-width: 768px){
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 15px;
+}
  
 
