@@ -3,8 +3,8 @@
 
 
 
-body html{
-  margin: 0;
+body, html{
+  margin: 0 auto;
   padding: 0;
   
 }
@@ -17,11 +17,9 @@ body {
 .About {
   position: relative;
   text-transform: uppercase;
-  
   margin-top: 30%;
- margin-bottom:10%;
- 
- color: #ffffff;
+  margin-bottom:10%;
+  color: #ffffff;
 }
 .sidenav {
   background-image: url(../images/ja.jpg);
@@ -98,6 +96,16 @@ body {
 #menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #28db8d;
 }
+
+a.navbar-brand {
+    font-size:30px;
+    margin-top: 8px;
+    margin-left: 18px;
+    margin-right: 0;
+    padding-right: 0;
+    color: #F44336;
+    text-shadow: -7px 11px 4px black;
+}
  footer {
      background-color: #5A5560;
      margin: 0;
@@ -148,23 +156,25 @@ body {
 
 
 /* The overlay effect  */
-.overlay {
+  .overlay {
   position: absolute; 
-  bottom: 0;  
+  bottom: 0;
+  left: 0;
+  right: 0;
   background: rgb(255, 255, 0, 0.3); /* yellow see through */
   width: 100%;
   height: 35%;
-  font-size: 20px;
-  text-align: left;
-  color: white;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
   font-weight: 200;
   padding-left: 0;
   margin-left: 0;
-  
 }
 
-
-
-
-
+  h3{
+      font-weight: 700;
+      text-shadow: -2px 2px 4px black
+        }
+ 
 
