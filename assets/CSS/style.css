@@ -8,6 +8,15 @@ body, html{
   padding: 0;
   font-family: "Quicksand";
 }
+.main {
+    margin :0;
+    padding: 0;
+}
+
+.content {
+    margin :0;
+    padding: 0;
+}
 
 .About {
   position: relative;
@@ -16,22 +25,11 @@ body, html{
   margin-bottom:10%;
   color: #ffffff;
 }
-.sidenav {
-  background-image: url(../images/ja.jpg);
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
-  margin :0;
-  padding: 0;
-  margin-top: 0px;
-    transition: all .5s ease-in-out;
-       -moz-transition: all 0.5s ease-in-out;
-     -webkit-transition: all 0.5s ease-in-out;
-}
+
      
-     .sidephoto {
-  background-image: url(../images/sky.jpg);
-  height: 100vh;
+     .profile-main {
+  background-image: url("../images/background.jpg");
+  height: 50vh;
   background-position: center;
   background-size: cover;
   margin :0;
@@ -39,8 +37,7 @@ body, html{
       transition: all .5s ease-in-out;
        -moz-transition: all 0.5s ease-in-out;
      -webkit-transition: all 0.5s ease-in-out;
-     
-}
+     }
 /* Navigation bar styles  */
 #menu {
   margin: 0;
@@ -97,15 +94,23 @@ body, html{
     background-color: #28db8d;
 }
 
-a.navbar-brand {
-    font-size:30px;
+.navbar-brand {
+    background: url(../images/logo.jpg);
+    width: 110px;
+    height:52px;
+    background-size: cover;
     margin-top: 8px;
-    margin-left: 18px;
-    margin-right: 0;
-    padding-right: 0;
-    color: #F44336;
-    text-shadow: -7px 11px 4px black;
+    border-radius: 4px;
+    
+    
 }
+/*----thumbnail styling-----*/
+   .thumbnail {
+       margin-left: 20px;
+       margin-right: 20px;
+   }
+
+
  /*Media Querry for navbar*/
    @media (min-width: 768px){
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
@@ -167,30 +172,23 @@ a.navbar-brand {
      
 
    /* -----The overlay effect --------- */
-  .overlay {
-  position: absolute; 
+  .Introduction {
+  position: relative; 
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgb(255, 255, 0, 0.3); /* yellow see through */
+  background: #ffffff; /* yellow see through */
   width: 100%;
-  height: 35%;
-  font-size: 60px;
+  height: 20%;
+  font-size: 16px;
   text-align: center;
-  color: #ffffff;
-  font-weight: 200;
   padding-left: 0;
   margin-left: 0;
   overflow: auto;
+  font-weight: 700;
 }
 
-  h3{
-      /*font styles for main page text*/
-      font-weight: 700;
-      text-shadow: -2px 2px 4px black;
-      font-size: 44px;
-      
-  }
+ 
   /* ----------------------------- */
        
     /*----Pictures page style----*/
@@ -211,7 +209,7 @@ a.navbar-brand {
 /*--------------------------------*/
 /*-------Videos style-------------*/
 
-html { 
+.videos { 
   background: url(../images/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -226,12 +224,6 @@ html {
     height: auto;
 }
  
- .embed-responsive-16by9 {
-     width: 70%;
-     height: 40%;
-    margin-top: 15px;
-    margin-bottom: 15px;
- }
 
 
 
