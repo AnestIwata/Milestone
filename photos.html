@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +11,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />  
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
   </head>
+  
 
 <body>
 <header>
@@ -19,15 +24,15 @@
        
         <div class="container-fluid">
             
-                    <div class="col-*-12 navbar-header"><a class="navbar-brand" href="#">The eye in the sky</a>
-            
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    <div class="col-*-12 navbar-header"><a class="navbar-brand"  href="index.html"></a>
+                    
+                           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                             </button>
                 
                     </div>
         
                     <div class="collapse navbar-collapse navbar-menubuilder">
-                
+                    <!--List with buttons-->
                     <ul class="nav navbar-nav navbar-right">
                         <li>
                             <a href="index.html">Home<i class="fa fa-home" aria-hidden="true"></i></a>
@@ -44,6 +49,8 @@
                             <a href="contact.html">Contact<i class="fa fa-commenting-o" aria-hidden="true"></i></a>
                         </li>
                     </ul>
+                      
+                    <!--End of list with buttons-->
             </div>
         </div>
    </div>
@@ -55,7 +62,7 @@
 <!--background photo -->
 <main>
    
-<body background="../assets/images/32.jpg">
+<body background="assets/images/32.jpg">
 
     <!-- Photo Grid -->
     
@@ -63,60 +70,60 @@
         <div class="fullgallery">
                 <div class="row">
             <div class="col-xs-6 col-sm-4 col-md-3 center">
-                <img class="img-responsive img-thumbnail" src="../assets/images/32.jpg" alt="pic">
-                <p>Donegal tandem</p>
+                <img class="img-responsive img-thumbnail" data-fancybox="gallery" src="assets/images/32.jpg" alt="pic">
+                <p class="description">Donegal tandem</p>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-3 center">
-                <img class="img-responsive img-thumbnail" src="../assets/images/2.jpg">
-                <p>Sky Force three way</p>
+                <img class="img-responsive img-thumbnail" data-fancybox="gallery" src="assets/images/2.jpg" alt="pic">
+                <p class="description">Sky Force three way</p>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-3 center">
-                <img class="img-responsive img-thumbnail" src="../assets/images/3.jpg">
-                <p>Pc-6 tandem</p>
+                <img class="img-responsive img-thumbnail" data-fancybox="gallery" src="assets/images/3.jpg" alt="pic">
+                <p class="description">Pc-6 tandem</p>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-3 center">
-                <img class="img-responsive img-thumbnail" src="../assets/images/35.jpg">
-                <p>W3-W exit</p>
+                <img class="img-responsive img-thumbnail" src="assets/images/35.jpg">
+                <p class="description">W3-W exit</p>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-4 center">
-                <img class="img-responsive img-thumbnail" src="../assets/images/17.jpg">
-                <p>Landing pattern</p>
+                <img class="img-responsive img-thumbnail" src="assets/images/17.jpg">
+                <p class="description">Landing pattern</p>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-4 center">
-                <img class="img-responsive img-thumbnail" src="../assets/images/8.jpg">
-                <p>Grass floating</p>
+                <img class="img-responsive img-thumbnail" src="assets/images/8.jpg">
+                <p class="description">Grass floating</p>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-4 center">
-                <img class="img-responsive img-thumbnail" src="../assets/images/31.jpg">
-                <p>Camera mayhem</p>
+                <img class="img-responsive img-thumbnail" src="assets/images/31.jpg">
+                <p class="description">Camera mayhem</p>
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-3 center">
-                <img class="img-responsive img-thumbnail" src="../assets/images/10.jpg">
-                <p>Cessna landing</p>
+                <img class="img-responsive img-thumbnail" src="assets/images/10.jpg">
+                <p class="description">Cessna landing</p>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-3 center">
-                <img class="img-responsive img-thumbnail" src="../assets/images/11.jpg">
-                <p>Do-28 exit</p>
+                <img class="img-responsive img-thumbnail" src="assets/images/11.jpg">
+                <p class="description">Do-28 exit</p>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-3 center">
-                <img class="img-responsive img-thumbnail" src="../assets/images/12.jpg">
-                <p>That scared face</p>
+                <img class="img-responsive img-thumbnail" src="assets/images/12.jpg">
+                <p class="description">That scared face</p>
             </div>
              <div class="col-xs-6 col-sm-4 col-md-3 center">
-                <img class="img-responsive img-thumbnail" src="../assets/images/13.jpg">
-                <p>I'm I a zoombie?</p>
+                <img class="img-responsive img-thumbnail" src="assets/images/13.jpg">
+                <p class="description">I'm I a zoombie?</p>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-4 center">
-                <img class="img-responsive img-thumbnail" src="../assets/images/26.jpg">
-                <p>Look Mom! no hands on!</p>
+                <img class="img-responsive img-thumbnail" src="assets/images/26.jpg">
+                <p class="description">Look Mom! no hands on!</p>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-4 center">
-                <img class="img-responsive img-thumbnail" src="../assets/images/15.jpg">
-                <p>Landing</p>
+                <img class="img-responsive img-thumbnail" src="assets/images/15.jpg">
+                <p class="description">Landing</p>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-4 center">
-                <img class="img-responsive img-thumbnail" src="../assets/images/16.jpg">
-                <p>Show us some love!</p>
+                <img class="img-responsive img-thumbnail" src="assets/images/16.jpg">
+                <p class="description">Show us some love!</p>
                 </div>
               </div>
               </div>
@@ -134,6 +141,7 @@
                  <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
                  <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
          </ul>
+         <p class="copyright">© Copyrigt Pawel Pelech 2018</p>
     </div>
 
 
